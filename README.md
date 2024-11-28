@@ -2,6 +2,7 @@
 Se recibe como parámetro un array de strings que representan cada fila de una tabla. Los string solo pueden ser A,T,C,G.
 
 La solicitud debe enviarse en formato JSON con el siguiente formato:
+
 {
   "dna": ["ATGCGA", "CTGTGC", "TTGTGT", "AGAAGG", "CACCTA", "TCAATG"]
 }
